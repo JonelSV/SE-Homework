@@ -1,0 +1,189 @@
+<style type="text/css">
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+
+}
+html {
+	font-family: cursive, fantasy;
+	font-size: 10px;
+
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 120% 120%;
+	margin: 0;
+	position: relative;
+
+}
+
+#navbutton{
+	position: relative;
+	text-align: center;
+	width: 180px;
+	height: 20px;
+	padding: 5px;
+	color: #1D0264;
+	font-weight: 10;
+	cursor: pointer;
+	border-radius: 50px;
+	transition: .5s;
+	font-size: 15px;
+	font-weight: bold;
+}
+a:hover {
+	box-shadow: 0 15px 50px 0 #64000 inset;
+	text-shadow: 0 0 5px #64024E; 0 0 5px #64024E;
+	font-size: 18px;
+
+}
+
+h1	{
+		color: #5742EE ;
+		font-family: cursive;
+		font-weight: 500px;
+		text-align: center;
+		text-decoration: underline blue;
+		background-color: transparent;
+	}
+p {
+		color: darkslategray;
+		letter-spacing: 0.1em;
+		word-spacing: 0.2em;
+		line-height: 1.5em;
+		text-align: justify;
+		font-size: 15px;
+		padding: 10px;
+		
+	}
+h2 {
+		font-weight: bold;
+		text-decoration: bold;
+		padding: 5px;
+	}
+h3 {
+		font-style: italic;
+		padding: 5px;
+		font-size: 15px;
+	}
+ol {
+		font-style: oblique;
+	}
+a {
+		color: purple;
+	}
+section {
+	padding: 10px;
+	font-size: 15px;
+}
+video {
+	padding: 10px;
+	margin: 15px;
+
+}
+
+.bold {
+	font-size: 15px;
+	text-shadow: 0 0 0 20 blue;
+}
+	.bright {
+		color: #4CEEB3;
+		font-size: 15px;
+	}
+	#divdark {
+		color: darkred;
+	}
+	#div1:hover {
+		color: blueviolet;
+	}
+
+	#div2 {
+		color: mediumvioletred;
+		font-size: 15px;
+	}
+	
+form {
+	padding: 10px;
+	background-color: transparent;
+	font-style: italic;
+	font-weight: 900px;
+}
+input [type=button]:hover {
+	color: greenyellow;
+	background-color: #000445;
+	padding: 10px;
+}	
+input [type=text]:focus {
+	background-color: lightblue;
+	color: black;
+	width: 50%;
+	transition: 2s;
+}
+
+
+	table {
+		table-layout: auto;
+	}
+.relative {
+	position: relative;
+	top: -20px;
+	left: 800px;
+	background-color: aquamarine;
+	width: 500px;
+}
+.fixed {
+	position: fixed;
+	top: 50px;
+	right: 20px;
+}
+.fixed2 {
+	position: fixed;
+	top: 260px;
+	right: 20px;
+}
+.fixed3 {
+	position: fixed;
+	top: 470px;
+	right: 20px;
+}
+	
+}
+.absolute {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	right: 0;
+	top: 400px;
+}
+.container {
+	position: relative;
+	padding: 10px;
+	float: left;
+	margin-right: 10px;
+	width: 75%;
+
+}
+.float {
+	float: right;
+	overflow: auto;
+	width: 80%;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.threecolumn {
+	padding: 1em;
+	column-count: 3;
+	column-gap: 2em;
+	font-size: 15px;
+}
+#p2:hover {
+	font-size: 20px;
+		 }
+}
+
+</style
